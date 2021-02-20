@@ -8,6 +8,9 @@
   },
   "author": "Luka Darsalia",
   "license": "ISC",
+  "engines": {
+    "node": "14.15.1"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cloudflare": "^2.7.0",

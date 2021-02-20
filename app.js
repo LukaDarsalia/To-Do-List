@@ -8,7 +8,6 @@ const FacebookStrategy = require("passport-facebook").Strategy;
 const htmlEntities = require("html-entities");
 const _ = require("lodash");
 const app = express();
-const port = 3000;
 const flash = require('connect-flash');
 var jsdom = require("jsdom");
 const { JSDOM } = jsdom;
@@ -481,9 +480,12 @@ app.post("/logout", function(req, res) {
 	res.redirect("/login");
 });
 
-
-app.listen(process.env.PORT || port, function() {
-	console.log("Server is running on port " + port);
+let port = process.env.PORT;
+if(port==null || port==""){
+	port = 3000;
+}
+app.listen(port, function() {
+	console.log("Server has started successfully.");
 });
 
 
