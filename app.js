@@ -9,6 +9,7 @@ const htmlEntities = require("html-entities");
 const _ = require("lodash");
 const app = express();
 const flash = require('connect-flash');
+const port = process.env.PORT;
 var jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const { window } = new JSDOM();
@@ -480,10 +481,7 @@ app.post("/logout", function(req, res) {
 	res.redirect("/login");
 });
 
-let port = process.env.PORT;
-if(port==null || port==""){
-	port = 3000;
-}
+
 app.listen(port, function() {
 	console.log("Server has started successfully.");
 });
