@@ -105,7 +105,7 @@ passport.deserializeUser(function(id, done) {
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "http://localhost:3000/auth/google/todolist"
+    callbackURL: "https://infinite-taiga-13320.herokuapp.com/auth/google/todolist"
   },
   function(accessToken, refreshToken, profile, cb) {
   	List.find({}, function(err, foundLists) {
@@ -130,7 +130,7 @@ passport.use(new GoogleStrategy({
 passport.use(new FacebookStrategy({
     clientID: process.env.APP_ID,
     clientSecret: process.env.APP_SECRET,
-    callbackURL: "http://localhost:3000/auth/facebook/todolist"
+    callbackURL: "https://infinite-taiga-13320.herokuapp.com/auth/facebook/todolist"
   },
   function(accessToken, refreshToken, profile, cb) {
   	  	List.find({}, function(err, foundLists) {
