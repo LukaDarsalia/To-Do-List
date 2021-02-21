@@ -876,9 +876,6 @@ footer {
   #checklist{
     font-size: 16px;
   }
-  .toggle{
-    margin:9px;
-  }
   .listsHeading{
     width: 260px;
     font-size: 26px;
@@ -909,5 +906,12 @@ footer {
   #butRem{
     width: 100%;
     left: 2px;
+  }
+  #add{
+    margin: 9px;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    left: -13px;
   }
 } 
