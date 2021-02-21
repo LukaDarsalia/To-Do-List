@@ -60,7 +60,7 @@
                             <div id="addList" class="toggle">
                                 <input id="hrefList" href="" type="button" onclick="listAction()">
                                 <span class="button"></span>
-                                <span style="cursor: pointer" onclick="$('#hrefList').click();" class="label" id="listLable">+</span>
+                                <span style="cursor: pointer" onclick="$('#hrefList').click();" class="label" id="listLable"><i class="fas fa-plus"></i></span>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
             <div id="remover" class="toggle">
                 <input id="iRemo"name="submitDeletion" value="" type="submit">
                 <span class="button"></span>
-                <span style="cursor: pointer" onclick="$('#iRemo').click();" id="butRem" class="label">↩︎</span>
+                <span style="cursor: pointer" onclick="$('#iRemo').click();" id="butRem" class="label"><i id="remIcon" class="fas fa-undo"></i></span>
             </div>
             <!-- <button id="remover" type="submit" name="submitDeletion" value=""><span id="butRem">↩︎</span></button> -->
             <input type="hidden" name="listName" value=<%= listTitle %>></input>
@@ -93,7 +93,7 @@
             <div id="add" class="toggle">
                 <input id="iAdd" name="title" value=<%= listTitle %> type="submit">
                 <span class="button"></span>
-                <span style="cursor: pointer" onclick="$('#iAdd').click();"id="but" class="label">+</span>
+                <span style="cursor: pointer" onclick="$('#iAdd').click();"id="but" class="label"><i class="fas fa-plus"></i></span>
             </div>
 <!--   <button id="add" type="submit" name="title" value=<%= listTitle %>><span id="but">+</span></button>
  -->    </form>
