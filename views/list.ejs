@@ -97,6 +97,17 @@
             </div>
 <!--   <button id="add" type="submit" name="title" value=<%= listTitle %>><span id="but">+</span></button>
  -->    </form>
+    <script>
+                let darkMode = <%= darkMode %>;
+        var CssLink = document.getElementsByTagName("link")[0];
+        if(darkMode===true){
+            CssLink.href = "/css/style_dark.css";
+            setTimeout(function() {$("html").css('display', "block");}, 500);
+        } else {
+            CssLink.href = "/css/styles.css";
+            setTimeout(function() {$("html").css('display', "block");}, 500);
+        }
+    </script>
     <script src="/listJS/list.js"></script>
 </body>
 </html>

@@ -1,13 +1,3 @@
-        let darkMode = <%= darkMode %>;
-        var CssLink = document.getElementsByTagName("link")[0];
-        if(darkMode===true){
-            CssLink.href = "/css/style_dark.css";
-            setTimeout(function() {$("html").css('display', "block");}, 500);
-        } else {
-            CssLink.href = "/css/styles.css";
-            setTimeout(function() {$("html").css('display', "block");}, 500);
-        }
-
 
         for (let k = 0; k <$(".checkboxes").length; k++){
             let m = k+1;
