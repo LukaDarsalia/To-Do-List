@@ -280,6 +280,8 @@ app.post("/login", passport.authenticate('local', { successRedirect: '/',
 	});
 });
 
+app.get('/favicon.ico', (req, res) => res.status(204).end());
+
 app.get("/:customListName", function(req, res){
 	if (req.isAuthenticated()){
 		const customListName = _.capitalize(req.params.customListName);
