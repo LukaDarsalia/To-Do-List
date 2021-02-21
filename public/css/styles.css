@@ -885,7 +885,7 @@ footer {
     left: -4px;
   }
   #but{
-    left: -33px;
+    left: -1px;
   }
   .listBox{
     max-width: 280px;
@@ -899,6 +899,7 @@ footer {
   }
   #listLable{
     width: 51px;
+    left: 0;
   }
   #remover{
     left:228px;
@@ -912,9 +913,12 @@ footer {
     width: 50px;
     display: inline-block;
     position: relative;
-    left: -13px;
+    left: -3px;
   }
   .toggle:before{
     content: none;
+  }
+  #input{
+    width:214px;
   }
 } 

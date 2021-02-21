@@ -862,8 +862,16 @@ input{
   color: #eee;
 }
 
-#adder{
-  border-bottom: none;
+#remIcon{
+  font-size: 33px;
+}
+#but{
+    left: 2px;
+  }
+
+#add{
+  width: 50px;
+  margin: 9px;
 }
 
 
@@ -874,16 +882,16 @@ input{
   #checklist{
     font-size: 16px;
   }
-  .toggle{
-    margin:9px;
-  }
-  .toggle .label{
-    width: auto;
-  }
   .listsHeading{
     width: 260px;
     font-size: 26px;
     margin-bottom: 40px;
+  }
+  .toggle .label {
+    left: -4px;
+  }
+  #but{
+    left: -33px;
   }
   .listBox{
     max-width: 280px;
@@ -897,11 +905,23 @@ input{
   }
   #listLable{
     width: 51px;
+    left: 0;
   }
   #remover{
     left:228px;
   }
   #butRem{
     width: 100%;
+    left: 2px;
+  }
+  #add{
+    margin: 9px;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    left: -13px;
+  }
+  .toggle:before{
+    content: none;
   }
 } 
