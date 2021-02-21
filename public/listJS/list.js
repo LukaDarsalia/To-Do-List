@@ -45,6 +45,6 @@
                 document.getElementById("input").placeholder = "New Item";
                 $("#remover").css("display", "none");
                 $("#formOne").css("margin-bottom", "0px");
-                $("#add").css("display", "block");
+                $("#add").css("display", "inline-block");
             }
         };
