@@ -660,6 +660,7 @@ button {
   opacity: 0.9;
   height: 100%;
   width: 100%;
+  left: -4px;
   color:  #eee;
 }
 .toggle input {
@@ -872,9 +873,6 @@ footer {
   .toggle{
     margin:9px;
   }
-  .toggle .label{
-    width: auto;
-  }
   .listsHeading{
     width: 260px;
     font-size: 26px;
@@ -898,5 +896,6 @@ footer {
   }
   #butRem{
     width: 100%;
+    left: 2px;
   }
 } 
