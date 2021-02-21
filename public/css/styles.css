@@ -885,7 +885,7 @@ footer {
     left: -4px;
   }
   #but{
-    left: -4px;
+    left: -33px;
   }
   .listBox{
     max-width: 280px;
@@ -913,5 +913,8 @@ footer {
     display: inline-block;
     position: relative;
     left: -13px;
+  }
+  .toggle:before{
+    content: none;
   }
 } 
