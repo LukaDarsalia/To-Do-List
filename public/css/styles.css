@@ -660,7 +660,6 @@ button {
   opacity: 0.9;
   height: 100%;
   width: 100%;
-  left: -4px;
   color:  #eee;
 }
 .toggle input {
@@ -862,6 +861,9 @@ footer {
 #remIcon{
   font-size: 33px;
 }
+#but{
+    left: 2px;
+  }
 
 @media only screen and (min-width: 320px) and (max-width: 500px){
   .box{
@@ -877,6 +879,12 @@ footer {
     width: 260px;
     font-size: 26px;
     margin-bottom: 40px;
+  }
+  .toggle .label {
+    left: -4px;
+  }
+  #but{
+    left: -4px;
   }
   .listBox{
     max-width: 280px;
