@@ -921,4 +921,8 @@ footer {
   #input{
     width:214px;
   }
+  input[type="text"]{
+    font-family: 'Lato';
+    color: #2f2f2f;
+  }
 } 
