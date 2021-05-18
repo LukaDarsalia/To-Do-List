@@ -1,10 +1,10 @@
 {
-"theme_color" : "#f635a7",
-"background_color" : "#3576f6",
-"display" : "fullscreen",
-"scope" : "https://infinite-taiga-13320.herokuapp.com/",
-"start_url" : "https://infinite-taiga-13320.herokuapp.com/login",
-"name" : "To Do List",
-"short_name" : "ToDo List",
-"description" : "It's a do to list."
+   "theme_color":"#f635a7",
+   "background_color":"#3576f6",
+   "display":"fullscreen",
+   "scope":"https://infinite-taiga-13320.herokuapp.com/",
+   "start_url":"https://infinite-taiga-13320.herokuapp.com/login",
+   "name":"To Do List",
+   "short_name":"ToDo List",
+   "description":"It's a do to list."
 }
